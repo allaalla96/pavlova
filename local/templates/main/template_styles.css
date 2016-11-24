@@ -206,7 +206,7 @@ a {
 
 /* 3. SLIDER WRAPPER */
 #menu { position: relative;  float: right; display: inline; margin-top: 10px; z-index: 5;  }
-#menu ul { list-style: none outside none; }
+#menu ul { list-style: none outside none; margin-top: -50px; }
 #menu ul li { position: relative; float: left; display: inline; margin-right: 15px; }
 #menu ul li a { width: 84px; height: 44px; display: block; color: #474747; font-size: 13px; text-align: center; line-height: 43px; }
 #menu ul li a:hover,

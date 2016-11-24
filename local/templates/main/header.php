@@ -118,7 +118,7 @@
     <div id="border-wrapper">
         <!-- Header Wrapper Starts -->
         <div id="header-wrapper">
-            <div id="logo"></div>
+            <div id="logo"> <a href="index.php"></a></div>
             <!-- Social Icon Wrapper Starts -->
             <div id="social">
                 <a href="http://twitter.com/codeslab1" class="twitter"></a>
@@ -131,32 +131,25 @@
             <div id="call-us">
                 <span>Call Tool: <strong>8 (499) 333 33 33</strong></span>
             </div>
-
-            <div id="menu">
-                <ul>
-                    <li><a href="#" class="active"><span>Home</span></a></li>
-                    <li><a href="#"><span>About us</span></a></li>
-                    <li><a href="#"><span>Catalog</span></a>
-                        <div class="dd-holder">
-                            <div class="dd-t"></div>
-                            <div class="dd">
-                                <ul>
-                                    <li><a href="#">Sub Level 1</a></li>
-                                    <li><a href="#">Sub Level 1</a></li>
-                                    <li><a href="#">Sub Level 1</a></li>
-                                    <li><a href="#">Sub Level 1</a></li>
-                                </ul>
-                            </div>
-                            <div class="dd-b"></div>
-                        </div>
-                    </li>
-                    <li><a href="#"><span>Purchases</span></a></li>
-                    <li><a href="#"><span>Blog</span></a></li>
-                    <li><a href="#"><span>Contact</span></a></li>
-                </ul>
-            </div>
-
         </div>
+            <?$APPLICATION->IncludeComponent("bitrix:menu", "top_menu", Array(
+	"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
+		"CHILD_MENU_TYPE" => "left",	// Тип меню для остальных уровней
+		"DELAY" => "N",	// Откладывать выполнение шаблона меню
+		"MAX_LEVEL" => "2",	// Уровень вложенности меню
+		"MENU_CACHE_GET_VARS" => array(	// Значимые переменные запроса
+			0 => "",
+		),
+		"MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
+		"MENU_CACHE_TYPE" => "A",	// Тип кеширования
+		"MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
+		"ROOT_MENU_TYPE" => "left",	// Тип меню для первого уровня
+		"USE_EXT" => "Y",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
+	),
+	false
+);?>
+
+
         <!-- Header Wrapper Ends -->
         <!-- Slider Wrapper Starts -->
         <div id="slider-wrapper">
