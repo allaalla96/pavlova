@@ -93,7 +93,7 @@ a {
     padding: 0;
     position: relative;
     height: 298px;
-    top: 1150px;
+
     background: url('images/clouds-forest.png') repeat-x 0 bottom;
 }
 
@@ -103,7 +103,7 @@ a {
     width: 1708px;
     height: 307px;
     position: relative;
-    top: 2650px;
+
 }
 
 /* 2. HEADER WRAPPER */
@@ -471,10 +471,10 @@ margin-right: -10px;
 #footer-upper-wrapper {
     width: 960px;
     float: left;
-    height: 150px;
+    height: 300px;
     background: #fff;
     line-height: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 #footer-upper-wrapper ul {
@@ -589,102 +589,4 @@ margin-right: -10px;
     margin-left: 21px;
     color: #fff;
     cursor: pointer;
-}
-
-/* 8. FOOTER LOWER WRAPPER */
-
-#footer-lower-wrapper {
-    width: 1060px;
-    height: 227px;
-    float: left;
-    background: url('images/social_footer.png') no-repeat bottom left;
-}
-
-#footer-lower-wrapper input[type="text"] {
-    width: 400px;
-    border: none;
-    outline: none;
-    height: 35px;
-    line-height: 35px;
-    position: relative;
-    top: 46px;
-    left: 211px;
-    background: #ADE1F9;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 180px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 15px;
-    behavior: url(ie-css3.htc);
-    border-radius:8px;
-    -webkit-border-radius:8px;
-    -moz-border-radius: 8px;
-    -khtml-border-radius: 8px;
-}
-
-#footer-lower-wrapper img#triangle {
-    position: relative;
-    top: 79px;
-    left: 187px;
-    z-index: 3;
-}
-
-#footer-lower-wrapper input[type="submit"] {
-    background: url('images/button_hover.png') repeat-x;
-    border: none;
-    padding: 5px;
-    margin-top: 5px;
-    width: 153px;
-    outline: none;
-    margin-left: 5px;
-    top: 46px;
-    left: 40px;
-    height: 30px;
-    color: #fff;
-    text-shadow: #D2D1D0 0px 1px 0px;
-    font-weight: bold;
-    position: relative;
-    cursor: pointer;
-}
-
-#footer-lower-wrapper input[type="submit"]:hover {
-    background: url('images/button.png') repeat-x;
-    border: none;
-    padding: 5px;
-    margin-top: 5px;
-    width: 153px;
-    outline: none;
-    margin-left: 5px;
-    top: 46px;
-    left: 40px;
-    height: 30px;
-    color: #fff;
-    font-weight: bold;
-    position: relative;
-    cursor: pointer;
-}
-
-#footer-lower-wrapper input.placeholder {
-    color: #fff;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-#footer-lower-wrapper p {
-    color: #6F6F6F;
-    position: relative;
-    top: 70px;
-    z-index: 2;
-    font-size: 9px;
-    left: 280px;
-}
-
-#footer-lower-wrapper a img {
-    width: 55px;
-    height: 54px;
-    position: relative;
-    top: 60px;
-    left: 900px;
-    z-index: 2;
 }
