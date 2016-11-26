@@ -93,7 +93,7 @@ a {
     padding: 0;
     position: relative;
     height: 298px;
-
+    top: 2350px;
     background: url('images/clouds-forest.png') repeat-x 0 bottom;
 }
 
@@ -103,6 +103,7 @@ a {
     width: 1708px;
     height: 307px;
     position: relative;
+    top: 2650px;
 
 }
 
@@ -471,7 +472,7 @@ margin-right: -10px;
 #footer-upper-wrapper {
     width: 960px;
     float: left;
-    height: 300px;
+    height: 270px;
     background: #fff;
     line-height: 20px;
     padding-bottom: 50px;

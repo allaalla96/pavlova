@@ -1,0 +1,16 @@
+div.photo-section table.data-table tr.head-row td {
+
+	border-bottom:none;
+}
+div.photo-section table.data-table tr.data-row {
+	border-top:none;
+	border-bottom:none;
+}
+div.photo-section table.data-table th.data-cell {
+	border-top:none;
+	border-bottom:none;
+
+}
+.ulslide ul {
+	list-style: none;
+}
