@@ -7,6 +7,7 @@ use Bitrix\Main\Entity\Event;
 use Bitrix\Main\Localization\Loc;
 use Bitrix\Iblock\ElementTable;
 use Bitrix\Main\UserTable;
+
 Loc::loadMessages(__FILE__);
 
 class StatManager
