@@ -18,7 +18,6 @@ class StatDepartmentTable extends Entity\DataManager
     {
         return 't_department_stat';
     }
-
     /*Описание полей сущности (соответсвуют полям HL DepartmentStat)*/
     public static function getMap()
     {
