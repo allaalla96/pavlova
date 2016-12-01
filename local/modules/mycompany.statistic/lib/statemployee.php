@@ -18,7 +18,6 @@ class StatEmployeeTable extends Entity\DataManager
     {
         return 't_employee_stat';
     }
-
     /*Описание полей сущности (соответсвуют полям HL EmployeeStat)*/
     public static function getMap()
     {

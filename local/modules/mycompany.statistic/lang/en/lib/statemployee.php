@@ -7,7 +7,7 @@
  */
 ?>
 <?
-$MESS["STAT_ENTITY_ID_FIELD"] = "ID KPI";
+$MESS["STAT_ENTITY_ID_FIELD"] = "ID sales statistic";
 $MESS["STAT_ENTITY_UF_VALUE_FIELD"] = "Value";
 $MESS["STAT_ENTITY_UF_CREATED_FIELD"] = "Creation date";
 $MESS["STAT_ENTITY_UF_CHANGED_FIELD"] = "Changed date";
